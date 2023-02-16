@@ -1,4 +1,3 @@
-
 * {
   margin: 0;
   padding: 0;
@@ -84,7 +83,8 @@ input:not(#search):focus::placeholder {
   content: "Total: ";
 }
 
-#count,#category {
+#count,
+#category {
   width: 100%;
   margin-bottom: 10px;
 }
@@ -104,7 +104,7 @@ button {
 
 button:hover {
   letter-spacing: 1.2px;
-  background-color: rgb(54, 182, 160);;
+  background-color: rgb(54, 182, 160);
 }
 
 #create {
@@ -162,10 +162,11 @@ table th {
   .cruds {
     width: 167%;
     margin-left: 13px;
+    overflow: scroll;
   }
 
   table {
-    max-width: 100%;
+    overflow: scroll;
   }
 }
 
@@ -173,10 +174,10 @@ table th {
   .cruds {
     width: 235%;
     margin-left: 10px;
+    overflow: scroll;
   }
 
   table {
-    width: 100%;
+    overflow: scroll;
   }
 }
-
