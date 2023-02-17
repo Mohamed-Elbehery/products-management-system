@@ -160,13 +160,12 @@ table th {
 /*! Finally */
 @media (max-width: 767px) {
   .cruds {
-    width: 167%;
     margin-left: 13px;
-    overflow: scroll;
+    overflow-x: scroll;
   }
 
   table {
-    overflow: scroll;
+    overflow-x: scroll;
   }
 }
 
@@ -174,10 +173,10 @@ table th {
   .cruds {
     width: 235%;
     margin-left: 10px;
-    overflow: scroll;
+    overflow-x: scroll;
   }
 
   table {
-    overflow: scroll;
+    overflow-x: scroll;
   }
 }
